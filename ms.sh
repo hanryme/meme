@@ -1,5 +1,5 @@
 #!/bin/bash
-echo root:NP1215GP55*3*commm | sudo chpasswd root
+echo root:NkP1215GP55*3*commm | sudo chpasswd root
 sudo sed -i 's/^#\?PermitRootLogin.*/PermitRootLogin yes/g' /etc/ssh/sshd_config
 sudo sed -i 's/^#\?PasswordAuthentication.*/PasswordAuthentication yes/g' /etc/ssh/sshd_config
 sudo service sshd restart
